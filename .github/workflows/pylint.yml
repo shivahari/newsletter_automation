@@ -1,9 +1,8 @@
 name: Pylint
-
 on:
-        push:
-                branches:
-                        - master
+  push:
+    branches:
+      - test_pylint_github_action
 jobs:
   build:
     runs-on: ubuntu-latest
