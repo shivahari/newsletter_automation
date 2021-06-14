@@ -2,7 +2,7 @@ name: Pylint
 on:
   push:
     branches:
-      - setup_github_actions
+      - test_pylint_github_action
 jobs:
   build:
     runs-on: ubuntu-latest
