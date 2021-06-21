@@ -1,0 +1,7 @@
+Source: newsletter-automation
+Section: python
+Build-Depends: debhelper (>= 9), python3, dh-virtualenv (>= 1.0),
+    python3-setuptools, python3-pip, python3-dev, libffi-dev
+Package: newsletter-automation
+Pre-Depends: dpkg (>= 1.16.1), python3 (>= 3.8), ${misc:Pre-Depends}
+Description: An automated Newsletter generation project
